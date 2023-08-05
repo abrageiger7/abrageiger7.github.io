@@ -1,8 +1,21 @@
+title {
+   color: #61C466;
+   font-family: serif;
+   font-size:500%
+}
+
 /*header style*/
 header {
+   color: #8CEC91;
+   font-family: serif;
    text-align: center;
    padding: 20px;
 }
+
+p {
+  font-family: serif;
+}
+
 /*navigation menu style*/
 nav {
    text-align: center;
