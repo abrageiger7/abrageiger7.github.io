@@ -1,7 +1,26 @@
-title {
-   color: #61C466;
-   font-family: serif;
-   font-size:500%
+body {
+ background-color: #EEFFEF;
+ font-family: serif;
+
+}
+h1 {
+ color: #416B43;
+ font-size:350%;
+ font-family: serif;
+ text-align: left;
+ padding-left: 15px;
+}
+p {
+ font-family: serif;
+ font-size: 125%;
+ line-height: 1.5;
+ text-align: left;
+ padding-left: 15px;
+ padding-right: 1000px;
+}
+
+img.link {
+  width: 20px;
 }
 
 /*header style*/
@@ -12,15 +31,11 @@ header {
    padding: 20px;
 }
 
-p {
-  font-family: serif;
-}
-
 /*navigation menu style*/
 nav {
    text-align: center;
    word-spacing: 30px;
-   Padding: 10px;
+   padding: 10px;
 }
 /*creating the two-column layout*/
 *{
