@@ -1,4 +1,5 @@
 body {
+ padding-top: 0px;
  background-color: #EEFFEF;
  font-family: serif;
 
@@ -18,13 +19,16 @@ body {
  }
 
 }
+
 h1 {
  color: #416B43;
  font-size:300%;
  font-family: serif;
  text-align: left;
  padding-left: 5px;
+ padding-top: 50px;
 }
+
 p {
  font-family: serif;
  font-size: 125%;
@@ -35,43 +39,55 @@ p {
 }
 
 img {
-  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 75%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
+figcaption {
+  padding-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
-li {
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #E3FAE4;
+    overflow: hidden;
+    justify-content:space-around;
+    margin-top: -20px; /* This is only an estimate of a margin*/
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
   float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 22px;
 }
 
-li a:hover:not(.active) {
+/* Change the color of links on hover */
+.topnav a:hover {
   background-color: #ddd;
+  color: black;
 }
 
-li a.active {
-  color: white;
+/* Add a color to the active/current link */
+.topnav a.active {
   background-color: #04AA6D;
+  color: white;
 }
 
-img.link {
-  width: 3%;
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
 }
+
 
 /*header style*/
 header {
@@ -99,28 +115,4 @@ nav {
 .row {
    display: flex;
    flex-wrap: wrap;
-}
-.post-text-box {
-   flex: 70%;
-   padding-left: 30px;
-}
-.profile {
-   flex: 70%;
-   padding: 20px;
-}
-/*profile image and heading style*/
-.profile img {
-   display: block;
-   padding:10px;
-}
-.profile h1 {
-   text-align: center;
-}
-
-.post-text-box h1 {
-  color: #416B43;
-  font-size:350%;
-  font-family: serif;
-  text-align: left;
-  padding-left: 5px;
 }
