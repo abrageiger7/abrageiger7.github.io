@@ -2,3 +2,4 @@ RewriteEngine On
 RewriteRule ^about$ about.html [L]
 RewriteRule ^contact$ contact.html [L]
 RewriteRule ^research$ research.html [L]
+RewriteRule ^activities$ activities.html [L]
